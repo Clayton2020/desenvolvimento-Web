@@ -1,5 +1,4 @@
-<script>
-     // função de Menu para que, quando clicar na seta do menu, ele apareça as opções de menu e quando clicar novamente ele desapareça as opções de menu
+    // função de Menu para que, quando clicar na seta do menu, ele apareça as opções de menu e quando clicar novamente ele desapareça as opções de menu
     function toggleMenu() {
       const menu = document.getElementById("menu-list");
       menu.style.display = menu.style.display === "block" ? "none" : "block";
