@@ -1,4 +1,4 @@
-/* borda de fundo do site */
+ /* borda de fundo do site */
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -44,7 +44,7 @@
       border: 3px solid #088bf7;
       margin: 20px auto;
       display: block;
-    }
+    }  
     
     /* preencher na parte superior de um site */
     .top-bar {
