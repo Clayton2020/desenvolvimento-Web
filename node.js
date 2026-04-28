@@ -1,4 +1,4 @@
-    // função de Menu para que, quando clicar na seta do menu, ele apareça as opções de menu e quando clicar novamente ele desapareça as opções de menu
+// função de Menu para que, quando clicar na seta do menu, ele apareça as opções de menu e quando clicar novamente ele desapareça as opções de menu
     function toggleMenu() {
       const menu = document.getElementById("menu-list");
       menu.style.display = menu.style.display === "block" ? "none" : "block";
@@ -39,6 +39,6 @@
       const assunto = "Contato pelo site";
       const corpo = `Olá, meu nome é ${nome}%0A%0A${mensagem}%0A%0AEmail de contato: ${email}`;
       window.location.href = `mailto:claytonkeko2019@gmail.com?subject=${assunto}&body=${corpo}`;
-      // função de que, a mensagem foi enviada com sucesso/*
+      // função de que, a mensagem foi enviada com sucesso
       alert("Mensagem enviada com sucesso!");
     }
